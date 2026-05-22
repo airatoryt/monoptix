@@ -98,6 +98,8 @@ it relies on the input file, its structure, and the program's own deterministic 
 ## Architecture Notes
 
 MonoptiX is structured around a layered optimization flow that includes binary parsing, structural encoding, interaction-net style reduction, and final serialization. The design emphasizes reproducibility and reversibility over heuristic randomness.
+The current implementation is built around a limited set of computer devices, that run on an x86-64 chip, through any Linux kernel OS (preferrably Arch Linux), and most importantly, possess any NVIDIA Blackwell Architecture GPU Card. However, the core algorithms of this program, is universal, and can be implemented on virtually all computing devices.
+For the current implementation, we have included a direct python to binary file transpilation flag, for simpler testing and research purposes, which uses Codon.
 
 ## Repository Contents
 
