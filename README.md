@@ -107,6 +107,7 @@ For the current implementation, we have included a direct python to binary file 
 - terminal workflow screenshots
 - binary optimization pipeline assets
 - project reference material
+- monoptix elf binary file
 
 ## License
 
